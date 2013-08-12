@@ -4,19 +4,10 @@
 //
 //   http://www.suffecool.net/poker/evaluator.html
 //
-// Also, it integrates paul senzee's perfect hash variant 
-// to get a 2.7x speedup: 
+// Also, it integrates paul senzee's perfect hash variant
+// to get a 2.7x speedup:
 //
 //   http://www.paulsenzee.com/2006/06/some-perfect-hash.html
 //
-// 
+//
 package poker
-
-
-
-
-
-
-
-
-
