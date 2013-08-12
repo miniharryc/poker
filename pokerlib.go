@@ -45,10 +45,13 @@ func init_deck( deck *Deck ) {
 }
 
 func NewCard( rank CardRank, suit Suit ) Card {
+
+
+
 	return Card(
-		primes[ rank ] |
-		uint(rank << 8)|
-		uint(suit)     |
+		primes[ rank ]  |
+		uint(rank) << 8 |
+		uint(suit)      |
 		(1 << (16+rank) ) )
 }
 
